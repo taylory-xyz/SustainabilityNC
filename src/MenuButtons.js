@@ -22,14 +22,15 @@ class MenuButton extends React.Component {
 	}
 }
 
+export default MenuButton;
 
-export default withNavigation(MenuButton);
+//export default withNavigation(MenuButton);
 
 const styles = StyleSheet.create({
 	button: {
 		margin: '10%',
 		padding: '10%',
-		justifyConent: 'center',
+		justifyContent: 'center',
 		color: 'darkgreen',
 		textAlign: 'center',
 		fontFamily: 'Courier New',

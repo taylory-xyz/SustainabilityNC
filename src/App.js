@@ -1,10 +1,10 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {StyleSheet, ScrollView, View, Text, TouchableOpacity} from 'react-native';
 import Header from './Header';
 import Calculator from './FootPrint';
 import MenuButton from './MenuButtons';
 
-class App extends Component {
+class App extends React.Component {
 	render() {
 		return (
 		<ScrollView style={styles.bg}>
@@ -23,7 +23,7 @@ class App extends Component {
 	}
 }
 
-class Content extends Component {
+class Content extends React.Component {
 	render() {
 		return (
 			<Text style={styles.main}>
