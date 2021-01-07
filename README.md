@@ -4,6 +4,7 @@
 - npm or yarn
 
 ## Steps (from the commandline):
+- install expo-cli, `npm install -g expo-cli`
 - `git clone https://github.com/SustainabilityNC/SustainabilityNC.git`
 - `cd SustainabilityNC`
 - `npm install expo` or `yarn add expo`
